@@ -28,3 +28,5 @@ switch (dia) {
 }
 console.log("El día de la semana es: " + nombredia);
 // Output: El día de la semana es: Miércoles
+
+
