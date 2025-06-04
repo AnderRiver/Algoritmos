@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+    <div class="contenedor"> 
+        <h1>Actividad 1</h1>
+        <h1>Joander Parra</h1>
+        <p>Hola, mi nombre es Joander Parra y esto es lo que me gusta:</p>
+        <img src = "Images/20221130_221215.jpg">
+
+        <ul style="display: flex; gap: 10px; list-style: none; padding: 0;">>
+            <li>Videojuegos,</li>
+            <li>Programación,</li>
+            <li>Dormir</li>
+        </ul>
+        <ol style="display: flex; gap: 10px; list-style: none; padding: 0;">>
+            <li>Estudiar,</li>
+            <li>Hacer ejercicio,</li>
+            <li>Tocar la guitarra</li>
+        </ol>
+
+    </div>
+
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Cedula</th>
+            <th>Nacimiento</th>
+            <th>Telefono</th>
+        </tr>
+
+        <tr>
+            <td>Joander Parra</td>
+            <td>31188413</td>
+            <td>02/04/2005</td>
+            <td>04126505893</td>
+        </tr>
+        <tr>
+            <td>Nellys Perez</td>
+            <td>11889440</td>
+            <td>29/10/1978</td>
+            <td>04246853531</td>
+        </tr>
+        <tr>
+            <td>Jinely Parra</td>
+            <td>26639425</td>
+            <td>27/10/1998</td>
+            <td>04246556066</td>
+        </tr>
+        <tr>
+            <td>Evencio Parra</td>
+            <td>7713450</td>
+            <td>22/12/1960</td>
+            <td>04146486655</td>
+        </tr>
+<h2>formulario </h2>
+<form action="/enviar-datos" method= "post">  <div>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="usuario_nombre">
+</div>
+<div>
+    <label for="email">email:</label>
+    <input type="email" id="email" name="usuario_email">
+</div>
+<div>   
+    <label for="mensaje">mensaje</label>
+    <textarea id="mensaje" name="usuario_mensaje" rows="5" required></textarea>
+</div>
+<div>
+    <p>Desea recibir nuestro boletin?</p>
+    <input type="checkbox" id="boletin" name="usuario_boletin">
+    <label for="boletin">Si</label>
+</div>
+<div>
+    <p>Genero</p>
+    <input type="radio" id="Genero_m" name="usuario_genero" value="masculino">
+    <label for="Genero_m">Masculino</label>
+    <input type="radio" id="Genero_f" name="usuario_genero" value="femenino">
+    <label for="Genero_f">Femenino</label>
+</div>
+<div>
+    <label for="pais">Pais:</label>
+    <select id="pais" name="usuario_pais">
+        <option value="venezuela">Venezuela</option>
+        <option value="colombia">Colombia</option>
+        <option value="peru">Peru</option>
+        <option value="argentina">Argentina</option>
+    </select>
+</div>
+<div>
+    <input type="submit" value="enviar formulario"> 
+</div>
+</form>
+</body>
+</html>
