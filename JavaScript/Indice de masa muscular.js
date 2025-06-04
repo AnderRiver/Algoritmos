@@ -9,5 +9,5 @@ if (imc < 18.5) {
 }else if (imc <= 24.9 && imc < 29.9) {
     console.log("Sobrepeso");
 }else {
-    console.log("obesidad");
+    console.log("obesidad xd");
 }
